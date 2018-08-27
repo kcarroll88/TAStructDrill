@@ -10,6 +10,11 @@ namespace TAStructDrill
     {
         static void Main(string[] args)
         {
-        }
-    }
+            Number number = new Number();
+            number.Amount = 2.34m;
+            Console.WriteLine(number.Amount);
+
+            Console.ReadLine();
+        }       
+    }  
 }
